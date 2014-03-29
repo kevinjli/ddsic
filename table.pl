@@ -40,7 +40,10 @@ for ( 1 .. scalar @sorted_scores ) {
 print "{| class = \"wikitable sortable\" width=\"600\"\n";
 print "! Place !! Student !! School !! Score\n";
 
-for (@final_scores) { print "|-\n$_\n" }
+for (@final_scores) {
+    s/ (\d) (\d\d\d) /$1,$2/gx;
+    print "|-\n$_\n";
+}
 
 print "|}";
 
