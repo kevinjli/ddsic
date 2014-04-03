@@ -13,3 +13,9 @@ Typical use:
     perl table.pl input.txt > output.txt
 
 The file [output.txt](https://github.com/likevin2010/ddsic/blob/master/output.txt) was produced by application of this script to the file [test.txt](https://github.com/likevin2010/ddsic/blob/master/test.txt), which contains all known overall individual scores from the 2014 Orange County Academic Decathlon teams: Valencia, Westminster, and Woodbridge.
+
+When viewed in DDSIC, *output.txt* is formatted like this:
+
+![DDSIC sample](https://raw.github.com/likevin2010/ddsic/master/ddsic-chart.png)
+
+(The tables are sortable!)
