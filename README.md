@@ -18,4 +18,4 @@ When viewed in DDSIC, *output.txt* is formatted like this:
 
 ![DDSIC sample](https://raw.github.com/likevin2010/ddsic/master/ddsic-chart.png)
 
-(The tables are sortable!)
+(The columns are sortable!)
