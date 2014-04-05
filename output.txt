@@ -1,43 +1,43 @@
 {| class = "wikitable sortable" width="600"
 ! Place !! Student !! School !! Score
 |-
-| {{Gold|1}} || Andrew Ly || Westminster || 8531.0 
+| {{Gold|1}} || Andrew Ly || Westminster || 8,531.0
 |-
-| {{Silver|2}} || Brian Chu || Valencia || 7982.9 
+| {{Silver|2}} || Brian Chu || Valencia || 7,982.9
 |-
-| {{Bronze|3}} || Deszra Shariff || Valencia || 7840.7 
+| {{Bronze|3}} || Deszra Shariff || Valencia || 7,840.7
 |-
-| 4 || Divya Prajapati || Woodbridge || 7741.3 
+| 4 || Divya Prajapati || Woodbridge || 7,741.3
 |-
-| 5 || Alexandra Guerrero || Valencia || 7664.7 
+| 5 || Alexandra Guerrero || Valencia || 7,664.7
 |-
-| 6 || Joseph Yen || Valencia || 7455.3 
+| 6 || Joseph Yen || Valencia || 7,455.3
 |-
-| 7 || Irene Koo || Woodbridge || 7186.2 
+| 7 || Irene Koo || Woodbridge || 7,186.2
 |-
-| 8 || William Fletes || Valencia || 7110.4 
+| 8 || William Fletes || Valencia || 7,110.4
 |-
-| 9 || Gigi Olmedo || Woodbridge || 7097.9 
+| 9 || Gigi Olmedo || Woodbridge || 7,097.9
 |-
-| 10 || Collin Amano || Valencia || 7071.7 
+| 10 || Collin Amano || Valencia || 7,071.7
 |-
-| 11 || Victoria Ozuna || Woodbridge || 7041.9 
+| 11 || Victoria Ozuna || Woodbridge || 7,041.9
 |-
-| 12 || Joanne Kim || Woodbridge || 6791.9 
+| 12 || Joanne Kim || Woodbridge || 6,791.9
 |-
-| 13 || Jaime Cruz || Westminster || 6773.6 
+| 13 || Jaime Cruz || Westminster || 6,773.6
 |-
-| 14 || Jessup Kim || Woodbridge || 6543.1 
+| 14 || Jessup Kim || Woodbridge || 6,543.1
 |-
-| 15 || Madelyn Rychlik || Valencia || 6392.6 
+| 15 || Madelyn Rychlik || Valencia || 6,392.6
 |-
-| 16 || Jackie Caldwell || Woodbridge || 6338.3 
+| 16 || Jackie Caldwell || Woodbridge || 6,338.3
 |-
-| 17 || Tahlil Islam || Woodbridge || 5762.6 
+| 17 || Tahlil Islam || Woodbridge || 5,762.6
 |-
-| 18 || Brisa Cepeda || Valencia || 5670.0 
+| 18 || Brisa Cepeda || Valencia || 5,670.0
 |-
-| 19 || Henry Ammermann || Woodbridge || 5507.9 
+| 19 || Henry Ammermann || Woodbridge || 5,507.9
 |-
-| 20 || Jacob Vela || Westminster || 5429.3 
+| 20 || Jacob Vela || Westminster || 5,429.3
 |}
