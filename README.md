@@ -4,6 +4,8 @@ Academic Decathlon is a competition for high school students involving teams of 
 
 The **DemiDec Scores and Information Center** is a wiki located [here](http://demidecscores.gilslotd.com/wiki/Main_Page), that aims to compile a record of Academic Decathlon scores from around the nation. Since wiki formatting is generally cumbersome and difficult to edit in, this repo aims to make it easier to edit by providing a tool that converts plain-text scores into tables.
 
+## table.pl
+
 The script *table.pl* converts scores from a file, each on one line with the form: *Name, School Score* into the source for a table that ranks and sorts those scores, colors cells for medal-winners, adds commas, etc. To see examples of such tables, check out the DDSIC results of the last national competition [here](http://demidecscores.gilslotd.com/wiki/Nationals/2013).
 
 Additional columns, such as state or region, can easily be added to the script by modifying the pattern to extract the relevant information and present it in wiki syntax.
@@ -19,3 +21,7 @@ When viewed in DDSIC, *output.txt* is formatted like this:
 ![DDSIC sample](https://raw.github.com/likevin2010/ddsic/master/ddsic-chart.png)
 
 (The columns are sortable!)
+
+## htable.pl
+
+The script *htable.pl* has the same general functionality as *table.pl*, but it presents the data in a human-readable format using the report-formatting capabilities of Perl. The same data, passed through this script, produces [this](https://github.com/likevin2010/ddsic/blob/master/human_output.txt) output.
