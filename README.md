@@ -10,10 +10,6 @@ The script *table.pl* converts scores from a file, each on one line with the for
 
 Additional columns, such as state or region, can easily be added to the script by modifying the pattern to extract the relevant information and present it in wiki syntax.
 
-Typical use:
-
-    perl table.pl input.txt > output.txt
-
 The file [output.txt](https://github.com/likevin2010/ddsic/blob/master/output.txt) was produced by application of this script to the file [test.txt](https://github.com/likevin2010/ddsic/blob/master/test.txt), which contains all known overall individual scores from the 2014 Orange County Academic Decathlon teams: Valencia, Westminster, and Woodbridge.
 
 When viewed in DDSIC, *output.txt* is formatted like this:
@@ -25,3 +21,12 @@ When viewed in DDSIC, *output.txt* is formatted like this:
 ## htable.pl
 
 The script *htable.pl* has the same general functionality as *table.pl*, but it presents the data in a human-readable format using the report-formatting capabilities of Perl. The same data, passed through this script, produces [this](https://github.com/likevin2010/ddsic/blob/master/human_output.txt) output.
+
+## Builds
+
+I have included compiled Windows binaries [here](https://github.com/likevin2010/ddsic/tree/master/build).
+
+Mac and Linux users should have Perl installed, and so should be able to run the scripts directly:
+
+    chmod +x table.pl
+    table.pl input > output
