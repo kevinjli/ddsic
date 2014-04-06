@@ -4,6 +4,7 @@ use strict;
 use warnings;
 
 my ( %school, %score );
+my $counter = 1;
 
 while (<>) {
     if (
@@ -17,22 +18,24 @@ while (<>) {
 
 for my $student ( sort { $score{$b} <=> $score{$a} or $a cmp $b } keys %score )
 {
-    my ( $school, $score );
+    my ( $rank, $school, $score );
 
     format STDOUT_TOP = 
-Student                   School                         Score 
-------------------------- ------------------------------ -----
+Rank Student                   School                         Score 
+---- ------------------------- ------------------------------ -----
 .
 
     format STDOUT = 
-@<<<<<<<<<<<<<<<<<<<<<<<< @<<<<<<<<<<<<<<<<<<<<<<<<<<<<< @>>>>
-$student,                 $school,                       $score
+@>>> @<<<<<<<<<<<<<<<<<<<<<<<< @<<<<<<<<<<<<<<<<<<<<<<<<<<<<< @>>>>
+$rank,$student,                 $school,                       $score
 .
-
+    $rank   = $counter;
     $school = $school{$student};
     $score  = $score{$student};
     $score =~ s/ (\d) (\d\d\d) /$1,$2/gx;
     write;
+
+    $counter++;
 }
 
 __END__
