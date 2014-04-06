@@ -24,7 +24,7 @@ The script *htable.pl* has the same general functionality as *table.pl*, but it 
 
 ## Builds
 
-I have included compiled Windows binaries [here](https://github.com/likevin2010/ddsic/tree/master/build).
+I have included compiled Windows binaries, built using [PAR Packager](http://search.cpan.org/~rschupp/PAR-Packer-1.017/lib/pp.pm), [here](https://github.com/likevin2010/ddsic/tree/master/build).
 
 Mac and Linux users should have Perl installed, and so should be able to run the scripts directly:
 
